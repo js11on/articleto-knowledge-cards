@@ -1,0 +1,29 @@
+# WorkBuddy 本地项目数据（含会话/工作日志，仅本地保留，不公开）
+.workbuddy/
+
+# 操作系统 / 编辑器临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# 临时文件 / 备份 / 日志
+*.tmp
+*.bak
+*.log
+
+# 环境变量与密钥（防止误提交）
+.env
+.env.*
+
+# Python（后续若加入工具脚本）
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node（后续若加入工具脚本）
+node_modules/
+npm-debug.log*
